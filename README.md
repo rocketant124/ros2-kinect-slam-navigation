@@ -15,7 +15,7 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
 3. **Integración de sensores** — Kinect Xbox 360 + conversión a LiDAR virtual
 4. **Procesamiento de señales** — filtrado de ruido en `/scan`
 5. **Implementación de SLAM** — mapeo con `slam_toolbox`
-6. **Navegación autónoma en interiores ** — Nav2 + AMCL + localización
+6. **Navegación autónoma en interiores** — Nav2 + AMCL + localización
 7. **Validación y documentación** — pruebas en laboratorio y pasillo
 
 ## Hardware utilizado
@@ -81,11 +81,6 @@ Si algo falla en el camino, revisa primero [`docs/troubleshooting.md`](docs/trou
 
 ---
 
-## Notas adicionales
-
-Los scripts de trayectorias (`trayectoria_*.py`, `angulo_90.py`, `avanza_*.py`, `pruebas_*.py`) dentro de `kobuki_trajectories/` también se usaron para exportar datos cinemáticos (`.csv`) con fines de un modelado matemático, desarrollado como investigación independiente fuera del alcance de esta estadía.
-
-## Autor
 
 Estudiante: Christopher Jared Villa Alanis
 
