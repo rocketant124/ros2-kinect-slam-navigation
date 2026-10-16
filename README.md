@@ -4,6 +4,26 @@ Esta es una doocumentación técnica del sistema de navegación autónoma en int
 
 Este repositorio sirve como **guía/manual** para estudiantes o investigadores que deseen reproducir el sistema desde cero: desde la instalación del entorno hasta la navegación autónoma con SLAM.
 
+## Demostración de SLAM y Navegación Autónoma.
+
+<table>
+  <tr>
+    <td>
+      <p align="center"><b>Video demostración Mapping</b></p>
+      <a href="https://youtu.be/8vellvasD6s">
+        <img src="https://youtube.com" alt="Demo SLAM 1" width="100%">
+      </a>
+    </td>
+    <td>
+      <p align="center"><b>Video demostración Navegación Autónoma</b></p>
+      <a href="https://youtu.be/YxljkDkqRZY">
+        <img src="https://youtube.com" alt="Demo SLAM 2" width="100%">
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 ---
 
 ## Descripción del proyecto
