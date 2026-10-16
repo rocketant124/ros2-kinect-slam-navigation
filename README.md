@@ -1,6 +1,6 @@
 # Sistema de Navegación Autónoma en Interiores — Kobuki (TurtleBot2) + Kinect
 
-Documentación técnica del sistema de navegación autónoma en interiores desarrollado durante una estadía profesional, usando un robot Kobuki (TurtleBot2) equipado con un sensor de profundidad Kinect Xbox 360, sobre ROS 2 Humble.
+Esta es una doocumentación técnica del sistema de navegación autónoma en interiores desarrollado durante una estadía profesional, usando un robot Kobuki (TurtleBot2) equipado con un sensor de profundidad Kinect Xbox 360, sobre ROS 2 Humble.
 
 Este repositorio sirve como **guía/manual** para estudiantes o investigadores que deseen reproducir el sistema desde cero: desde la instalación del entorno hasta la navegación autónoma con SLAM.
 
@@ -44,15 +44,7 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
 
 ```
 ├── docs/                          # Guías paso a paso (seguir en orden)
-│   ├── 01-hardware-setup.md
-│   ├── 02-software-setup.md
-│   ├── 03-kobuki-basics.md
-│   ├── 04-kinect-integration.md
-│   ├── 05-sensor-processing.md
-│   ├── 06-slam.md
-│   ├── 07-navigation.md
-│   ├── troubleshooting.md         # Problemas reales y sus soluciones
-│   └── images/
+│   ├── Guía.pdf
 ├── src/                            # Paquetes ROS 2 propios (código fuente)
 │   ├── kobuki_launch/
 │   └── kobuki_trajectories/
@@ -61,22 +53,13 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
     ├── arranque_navegacion.sh
 ```
 
-> **Nota:** este repositorio solo incluye los paquetes desarrollados durante la estadía (`kobuki_launch`, `kobuki_trajectories`). Los paquetes de terceros (`kobuki_core`, `kobuki_ros`, `kinect_ros2`, `libfreenect`, `depthimage_to_laserscan`, `cmd_vel_mux`, `velocity_smoother`) **no se incluyen como código**; sus instrucciones de instalación están documentadas en [`docs/02-software-setup.md`](docs/02-software-setup.md).
+> **Nota:** este repositorio solo incluye los paquetes desarrollados durante la estadía (`kobuki_launch`, `kobuki_trajectories`). Los paquetes de terceros (`kobuki_core`, `kobuki_ros`, `kinect_ros2`, `libfreenect`, `depthimage_to_laserscan`, `cmd_vel_mux`, `velocity_smoother`) **no se incluyen como código**; sus instrucciones de instalación están documentadas en [`docs/Guia.pdf`](docs/Guia.pdf).
 
 ---
 
 ## Inicio rápido
 
 Para replicar el proyecto completo, sigue las guías en `docs/` en orden numérico:
-
-1. [Configuración de hardware](docs/01-hardware-setup.md)
-2. [Instalación de software](docs/02-software-setup.md)
-3. [Familiarización y control básico del Kobuki](docs/03-kobuki-basics.md)
-4. [Integración del Kinect](docs/04-kinect-integration.md)
-5. [Procesamiento de señales de sensores](docs/05-sensor-processing.md)
-6. [Implementación de SLAM](docs/06-slam.md)
-7. [Navegación autónoma](docs/07-navigation.md)
-
 Si algo falla en el camino, revisa primero [`docs/troubleshooting.md`](docs/troubleshooting.md) — reúne los problemas reales encontrados durante el desarrollo y sus soluciones verificadas.
 
 ---
