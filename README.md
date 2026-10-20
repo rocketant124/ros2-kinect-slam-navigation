@@ -45,7 +45,7 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
 | Robot base | Kobuki (TurtleBot2) |
 | Sensor de profundidad | Kinect Xbox 360 |
 | Computadora de a bordo | Lenovo IdeaPad Slim 3 15IRH8 (Intel i7-13620H, Intel Iris Xe) |
-| Alimentación del Kinect | Puerto de 12V 1.5A del Kobuki — ver [troubleshooting](docs/troubleshooting.md)) |
+| Alimentación del Kinect | Puerto de 12V 1.5A del Kobuki |
 
 ## Software utilizado
 
@@ -64,7 +64,7 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
 
 ```
 ├── docs/                          # Guías paso a paso (seguir en orden)
-│   ├── Guía.pdf
+│   ├── GUIA.pdf
 ├── src/                            # Paquetes ROS 2 propios (código fuente)
 │   ├── kobuki_launch/
 │   └── kobuki_trajectories/
@@ -73,14 +73,14 @@ El proyecto implementa un pipeline completo de navegación autónoma en interior
     ├── arranque_navegacion.sh
 ```
 
-> **Nota:** este repositorio solo incluye los paquetes desarrollados durante la estadía (`kobuki_launch`, `kobuki_trajectories`). Los paquetes de terceros (`kobuki_core`, `kobuki_ros`, `kinect_ros2`, `libfreenect`, `depthimage_to_laserscan`, `cmd_vel_mux`, `velocity_smoother`) **no se incluyen como código**; sus instrucciones de instalación están documentadas en [`docs/Guia.pdf`](docs/Guia.pdf).
+> **Nota:** este repositorio solo incluye los paquetes desarrollados durante la estadía (`kobuki_launch`, `kobuki_trajectories`). Los paquetes de terceros (`kobuki_core`, `kobuki_ros`, `kinect_ros2`, `libfreenect`, `depthimage_to_laserscan`, `cmd_vel_mux`, `velocity_smoother`) **no se incluyen como código**; sus instrucciones de instalación están documentadas en [`docs/GUIA.pdf`](docs/GUIA.pdf).
 
 ---
 
 ## Inicio rápido
 
 Para replicar el proyecto completo, sigue las guías en `docs/` en orden numérico:
-Si algo falla en el camino, revisa primero [`docs/troubleshooting.md`](docs/troubleshooting.md) — reúne los problemas reales encontrados durante el desarrollo y sus soluciones verificadas.
+Si algo falla en el camino, la misma guia reúne los problemas reales encontrados durante el desarrollo y sus soluciones verificadas.
 
 ---
 
@@ -89,4 +89,4 @@ Estudiante: Christopher Jared Villa Alanis
 
 Proyecto desarrollado como parte de una estadía profesional universitaria.
 
-Repositorio: [SLAM_Documentacion](https://github.com/rocketant124/SLAM_Documentacion)
+Repositorio: [SLAM_Documentacion] (https://github.com/rocketant124/ros2-kinect-slam-navigation)
